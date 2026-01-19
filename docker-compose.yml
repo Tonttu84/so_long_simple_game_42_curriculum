@@ -1,0 +1,10 @@
+services:
+  so_long:
+    build: ./so_long
+    container_name: so_long
+    environment:
+      DISPLAY: ${DISPLAY}
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    working_dir: /app
+    command: ["./so_long", "maps/map.ber"]
