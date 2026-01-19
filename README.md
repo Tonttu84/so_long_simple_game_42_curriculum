@@ -4,6 +4,8 @@ so_long_simple_game_42_curriculum
 
 A small 2D game written in C as part of the 42 curriculum. You control a tiny hero who must collect all coins, avoid zombies, and reach the exit. The project uses MiniLibX (a minimal graphics library) and demonstrates event handling, rendering, memory management, and basic game logic.
 
+Originally the project was not inside a Docker but as I later learned to use Dockers I added Docker in order to make it more pleasant to use. The limitation of this approach that the same map is always launched unless you edit the launch line. 
+
 Gameplay Preview
 
 (GIF or video placeholder — add your media here)
